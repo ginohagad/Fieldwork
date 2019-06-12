@@ -14,13 +14,15 @@ body {
 header {
   background: #fff;
   padding-top: 40px;
-  padding-left: 45px;
+  padding-left: 65px;
+  padding-right: 65px;
   padding-bottom: 50px;
 }
 
 header ul {
   list-style-type: none;
   overflow: hidden;
+  display: inline-block;
 }
 
 header li {
@@ -31,16 +33,29 @@ header li {
 }
 
 header a {
-  display: block;
   text-align: center;
   text-decoration: none;
   padding-left: 10px;
+  color: #000;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: 0.3s;
 }
 
+header a:hover {
+  color: #EFB73A;
+}
+
+.active {
+  color: #EFB73A;
+}
+ 
 header h1 {
   float: right;
+  color: #EFB73A;
 }
-
 
 .clearfix::after {
   content: "";
