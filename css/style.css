@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
 
 * {
+  box-sizing: border-box;
   font-family: 'Cabin', sans-serif;
   margin: 0;
   padding: 0;
@@ -12,7 +13,9 @@ body {
 
 header {
   background: #fff;
-  padding: 60px;
+  padding-top: 40px;
+  padding-left: 45px;
+  padding-bottom: 50px;
 }
 
 header ul {
@@ -22,7 +25,9 @@ header ul {
 
 header li {
   float: left;
-  padding-top: 10px;
+  font-weight: bold; 
+  font-size: 1.0em;
+  letter-spacing: 0.9px;
 }
 
 header a {
