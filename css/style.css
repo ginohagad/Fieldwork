@@ -12,13 +12,18 @@ body {
 }
 
 header {
-  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background: #EFECE7;
 }
 
 .wrapper {
   padding-top: 40px;
-  padding-left: 65px;
-  padding-right: 65px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-bottom: 50px;
 }
 
@@ -64,4 +69,23 @@ header h1 {
   content: "";
   clear: both;
   display: table;
+}
+
+.container {
+  padding: 55px 90px 70px 55px;
+}
+
+#fieldwork {
+  background: #EFECE7;
+  color: #3C3C3B;
+  padding-top: 80px;
+}
+
+#fieldwork h1 {
+  font-size: 36px;
+  text-align: justify;
+}
+
+#fabled {
+  background: #CB9200;
 }
