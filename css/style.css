@@ -73,6 +73,7 @@ header h1 {
 
 .container {
   padding: 55px 90px 70px 55px;
+  width: 900px;
 }
 
 #fieldwork {
