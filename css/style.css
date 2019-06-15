@@ -71,9 +71,9 @@ header h1 {
   display: table;
 }
 
-.container {
+.fieldwork-container {
   padding: 55px 90px 70px 55px;
-  width: 900px;
+  width: 1000px; 
 }
 
 #fieldwork {
@@ -85,6 +85,10 @@ header h1 {
 #fieldwork h1 {
   font-size: 36px;
   text-align: justify;
+}
+
+.container {
+  // continue here !!!!!!!!!!!!
 }
 
 #fabled {
