@@ -87,10 +87,21 @@ header h1 {
   text-align: justify;
 }
 
-.container {
-  // continue here !!!!!!!!!!!!
-}
-
 #fabled {
   background: #CB9200;
+  height: 500px;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+}
+
+#fabled h1, #fabled h2, #fabled a {
+  color: #fff;
+}
+
+#fabled h1 {
+  font-size: 35px;
 }
